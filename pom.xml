@@ -29,6 +29,22 @@
       <version>3.1.0</version>
       <scope>provided</scope>
     </dependency>
+
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>servlet-api</artifactId>
+      <version>2.5</version>
+      <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>javax.servlet.jsp</groupId>
+      <artifactId>jsp-api</artifactId>
+      <version>2.1</version>
+      <scope>provided</scope>
+    </dependency>
+
+
     <!-- JSTL Dependency-->
     <dependency>
       <groupId>javax.servlet.jsp.jstl</groupId>
@@ -39,6 +55,12 @@
       <groupId>taglibs</groupId>
       <artifactId>standard</artifactId>
       <version>1.1.2</version>
+    </dependency>
+    <!-- JSTL Taglib-->
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-compiler-plugin -->
     <dependency>
